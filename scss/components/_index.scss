@@ -1,0 +1,416 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+// HEADER
+.navbar-red {
+    background: $red;
+    
+    a {
+        color: $white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .navbar-brand {
+        margin-right: 20px;
+        font-weight: 500;
+        
+        img {
+            max-height: inherit;
+        }
+    }
+    
+    .navbar-nav {
+        .nav-item {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    
+    .menu-infos {
+        align-items: center;
+    }
+    
+    .botton-element {
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .number-element {
+        display: flex;
+        
+        width: 54px;
+        height: 52px;
+        
+        border-radius: 62px;
+        
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+        
+        transition: 0.3s;
+    }
+}
+
+// carousel
+.carousel  {
+    position: relative;
+    
+    &-banner {
+        .slick-dots {
+            position: absolute;
+            bottom: 25px;
+            
+            li {
+                width: 30px;
+                height: 30px;
+                &.slick-active {
+                    border: 1px solid $red;
+                    padding: 4.5px;
+                    border-radius: 50px;
+                }
+                button {
+                    width: 20px;
+                    height: 20px;
+                    background-color: $red;
+                    border-radius: 50px;
+                    
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// COMERCIAL
+.comercial {
+    
+    &-img {
+        height: 40px;
+        margin-bottom: 13px;
+    }
+    .text {
+        padding-top: 10px;  
+        font-size: 15px;
+    }
+}
+
+// CARDS
+.cards {
+    &-body {
+        z-index: 9;
+    }
+    .border-style {
+        border: 4px solid $brown;
+    }
+    &-one {
+        padding: 35px 15px;
+        border-radius: 5px;
+        
+        .background-color {
+            background-color: $acqua;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            z-index: 5;
+            top: 6px;
+            left: 5px;
+            transition: .5s;
+            border-radius: 5px;
+        }
+        
+        &:hover {
+            .background-color {
+                top: 0;
+                left: 0;
+                transition: .5s;
+            }
+        }
+    }
+    &-two {
+        padding: 35px 15px;
+        border-radius: 5px;
+        
+        .background-color {
+            background-color: $orange;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            z-index: 5;
+            top: 6px;
+            left: 5px;
+            transition: .5s;
+            border-radius: 5px;
+        }
+        
+        &:hover {
+            .background-color {
+                top: 0;
+                left: 0;
+                transition: .5s;
+            }
+        }
+    }
+    &-three {
+        padding: 35px 15px;
+        border-radius: 5px;
+        
+        .background-color {
+            background-color: $pink;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            z-index: 5;
+            top: 6px;
+            left: 5px;
+            transition: .5s;
+            border-radius: 5px;
+        }
+        
+        &:hover {
+            .background-color {
+                top: 0;
+                left: 0;
+                transition: .5s;
+            }
+        }
+    }
+    &-btn {
+        margin-top: 10px;
+    }
+    &-text {
+        font-size: 15px;
+        font-weight: 300;
+        color: $white;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+    &-title {
+        font-size: 26px;
+        font-weight: 900;
+        color: $white;
+    }
+    img {
+        width: auto;
+        max-height: 193px;
+    }
+}
+
+.btn btn-light {
+    width: 163.03px;
+    height: 42px;
+    background-color: $white;
+    padding: 8px 45px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    letter-spacing: 1px;    
+}
+
+//INSTRUCTIONS
+.instructions {
+    background-color: $ice;
+    padding: 20px 0px 20px 0px;
+    
+    .content {
+        margin-top: 50px;
+    }
+    .general-instructions {
+        background-color: $white;
+        border-radius: 50%;
+        max-width: 1240px;
+        margin: 0 auto;
+        height: 1240px;
+    }
+    .title { 
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin-top: -3%;
+        
+        &-click {
+            margin-top: -3%;
+            
+            img {
+                width: 70px;
+            }
+        }
+        &-instruction {
+            font-size: 45px;
+            font-weight: 600;
+            color: $red;
+            margin-top: 0px;
+        }
+        p {
+            font-size: 15px;
+            font-family: "Open Sans";
+            color: $red;
+            text-align: center;
+        }
+    }
+    .media {
+        align-items: center;
+        
+        &-left {
+            .media-body {
+                align-items: flex-end;
+                display: flex;
+                flex-flow: column;
+                text-align: right;
+            }
+        }
+        &-body {
+            h4 {
+                font-weight: 600;
+                color: $red;
+                font-size: 40px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+            }
+            h3 {
+                font-weight: 600;
+                color: $red;
+                font-size: 27px;
+                margin-top: 0px;
+            }
+            p {
+                font-weight: 500;
+                color: $red;
+                font-size: 14px;
+                margin-top: 0px;
+                width: 50%;
+            }
+        }
+    }
+}
+
+//BRANDS
+.brands {
+    .title {
+        font-size: 45px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .slick-slide {
+        
+        text-align: center;
+        
+        img {
+            display: inline-block;
+        }
+    }
+    .slick-prev {
+        left: 0;
+        z-index: 5;
+        &::before {
+            content: '<';
+            color: $red;
+            font-size: 35px;
+            font-weight: bold;
+            opacity: 1;
+        }
+    }
+    .slick-next {
+        right: 0;
+        &::before {
+            content: '>';
+            color: $red;
+            font-size: 35px;
+            font-weight: bold;
+            opacity: 1;
+        }
+    }
+    
+    .title {
+        font-size: 45px;
+        color: $red;
+        margin: 0px 458px;
+    }
+    &-lists {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+}
+
+// PAGE FOOTER NEWS
+.page-footer {  
+    &-news {
+        .title {
+            font-size: 32px;
+            font-weight: 600;
+            color: $white;
+            margin-bottom: 20px;
+        }
+        width: 100%;
+        background-color: $red;
+        background-image: url("./../../images/home\ page/fundo-news.png");
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        
+    }
+}
+
+// SAFETY AND PAYMENT FOOTER
+.safety-and-payment {
+    h2 {
+        font-size: 14px;
+        font-weight: 700;
+        color: $black;
+        padding-top: 25px;
+        margin-top: 0;
+    }
+}
+
+// FOOTER CONTENT
+.footer-content {
+    background-color: $ice;
+    margin: 30px 0;
+    padding: 30px 0;
+    
+    .f-14 {
+        font-size: 14px;
+        
+        &.red {
+            color: $red;
+        }
+    }
+    .number {
+        font-size: 27px;
+        color: $red;
+    }
+    .list-group {
+        &-item {
+            border: none;
+            padding: 0;
+            color: $gray;
+            font-size: 14px;
+            padding-bottom: 10px;
+            background-color: transparent;
+            
+            &.title {
+                color: $black;
+            }
+        }
+    }
+    .social {
+        &-icon {
+            padding-right: 25px;
+        }
+        i {
+            color: $red;
+        }
+    }
+    .copyright {
+        color: $gray;
+    }
+}
+
+

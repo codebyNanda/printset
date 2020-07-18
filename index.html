@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Printset</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="./dist/css/main.css"/>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-red">
+			<a class="navbar-brand" href="#">
+				<img src="./images/home page/logo_printset.png" width="148" height="62" alt="Printset">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link text-uppercase" href="#">Pulseiras</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-uppercase" href="#">Ingressos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-uppercase" href="#">Ticket</a>
+					</li>
+				</ul>
+				
+				<ul class="navbar-nav menu-infos">
+					<li class="nav-item">
+						<a class="nav-link text-uppercase" href="#entrar">entrar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-uppercase btn btn-outline-white botton-element" href="#meuspedidos">meus pedidos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-uppercase" href="#carrinho">carrinho</a>
+					</li>
+					<li class="nav-item">
+						<div class="rounded-circle btn-white-red text-center number-element">0</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<section class="carousel">
+		<div class="carousel-banner">
+			<div><img src="images/home page/banner-hospital.png" class="d-block w-100" alt="banner-hospital"></div>
+			<div><img src="images/home page/banner-site-printset-5x-sem-juros.png" class="d-block w-100" alt="banner-site-printset-5x-sem-juros"></div>
+			<div><img src="images/home page/banner1 desktop_1.jpg" class="d-block w-100" alt="banner1-desktop"></div>
+		</div>
+	</section>
+	
+	<section class="comercial py-5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<div class="each text-center" data-toggle="tooltip" data-placement="top" title=" Total segurança para o seu evento em todos os momentos, da entrada a consumação.">
+						<div class="icon">
+							<img class="img-fluid comercial-img" src="images/home page/apelo01.svg"   width: 59.92 alt="tradição e confiança"/>
+						</div>
+						<div class="text">
+							<p>
+								Mais de 22 anos de 
+								<br>
+								tradição e confiança
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col">
+					<div class="each text-center" data-toggle="tooltip" data-placement="top" title=" Total segurança para o seu evento em todos os momentos, da entrada a consumação.">
+						<div class="icon">
+							<img class="img-fluid comercial-img" src="images/home page/apelo02.svg"
+							width="29.95" alt="qualidade máxima">
+						</div>
+						<div class="text">
+							<p>
+								Qualidade máxima
+								<br>
+								Tyvek®
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col">
+					<div class="each text-center" data-toggle="tooltip" data-placement="top" title=" Total segurança para o seu evento em todos os momentos, da entrada a consumação.">
+						<div class="icon">
+							<img class="img-fluid comercial-img" src="images/home page/apelo03.svg" width="25.64" alt="anti-falsificação">
+						</div>
+						<div class="text">
+							<p>
+								Produto com tecnologia
+								<br>
+								anti-falsificação
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col">
+					<div class="each text-center" data-toggle="tooltip" data-placement="top" title=" Total segurança para o seu evento em todos os momentos, da entrada a consumação.">
+						<div class="icon">
+							<img class="img-fluid comercial-img" src="images/home page/apelo04.svg" width="39.95" alt="Pagamento após a arte aprovada">
+						</div>
+						<div class="text">
+							<p>
+								Pagamento após a 
+								<br>
+								arte aprovada
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col">
+					<div class="each text-center" data-toggle="tooltip" data-placement="top" title=" Total segurança para o seu evento em todos os momentos, da entrada a consumação.">
+						<div class="icon">
+							<img class="img-fluid comercial-img" src="images/home page/apelo05.svg" width="51.92" alt="Agilidade na produção e entrega">
+						</div>
+						<div class="text">
+							<p>
+								Agilidade na
+								<br>
+								produção e entrega
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="cards py-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="cards-one text-center position-relative border-style">
+						<div class="background-color"></div>
+						<div class="cards-body position-relative">
+							<h3 class="cards-title">Pulseiras</h3>
+							<img src="images/home page/pulseira.png" alt="Pulseira">
+							<p class="cards-text">
+								Para melhor organizar seu 
+								<br>
+								evento e o controle de pessoas.
+							</p>
+							<a href="#" class="cards-btn btn btn-white-acqua">Ver mais</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="cards-two text-center position-relative border-style">
+						<div class="background-color"></div>
+						<div class="cards-body position-relative">
+							<h3 class="cards-title">Ingressos</h3>
+							<img src="images/home page/ingresso.png" alt="Ingressos">
+							<p class="cards-text">
+								Tenha controle total do número de ingressos vendidos
+							</p>
+							<a href="#" class="cards-btn btn btn-white-orange">Ver mais</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="cards-three text-center position-relative border-style">
+						<div class="background-color"></div>
+						<div class="cards-body position-relative">
+							<h3 class="cards-title">Ticket</h3>
+							<img src="images/home page/ticket.png" alt="Ticket">
+							<p class="cards-text">
+								Para um controle maior da 
+								<br>
+								contabilidade utilize as moedas.
+							</p>
+							<a href="#" class="cards-btn btn btn-white-pink">Ver mais</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="instructions">
+		<div class="content">
+			<div class="general instructions">
+				<div class="title">
+					<div class="title-click">
+						<img src="images/home page/click.png" width="70px" height="83.42" alt="click">
+					</div>
+					<h3 class="title-instruction">Veja como é fácil</h3>
+					<p>
+						Crie o material que seu evento precisa com 
+						alguns toques e aproveite a festa.
+					</p>
+				</div>
+				
+				<div class="container">
+					<div class="row justify-content-sm-center">
+						<div class="col-sm-10 col-xs-12">
+							<div class="media">
+								<img class="align-self-center mr-3" src="images/home page/passo-1.svg" width="425" height="310" class="rounded float-left" alt="Passo 1">
+								<div class="media-body">
+									<h4>01.</h4>
+									<h3>Personalize</h3>
+									<p>Contamos com materiais de apoio para você se preocupar apenas em
+										aproveitar a festa, escolha o produto que deseja nessa etapa.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-12">
+							<div class="media media-left">
+								<div class="media-body">
+									<h4>02.</h4>
+									<h3>Aprove</h3>
+									<p>Nessa etapa do processo você pode escolher o produto, as cores 
+										e como ele vai ser personalizado para atender todas as necessidades 
+										que seu evento precisa.
+									</p>
+								</div>
+								<img class="align-self-center mr-3" src="images/home page/passo-2.svg" width="425" height="310" class="rounded float-left" alt="Passo 2">
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-12">
+							<div class="media"> 
+								<img class="align-self-center mr-3" src="images/home page/passo-3.svg" width="425" height="310" class="rounded float-left" alt="Passo 3">
+								<div class="media-body">
+									<h4>03.</h4>
+									<h3>Pague</h3>
+									<p>O pagamento somente é realizado depois que você aprovar a arte, assim dando
+										mais segurança e tranquilidade.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="brands py-4">
+		<div class="content">
+			<div class="title mb-4">
+				<h3>Veja quem confia e usa Printset</h3>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col">
+						<div class="carousel-brands">
+							<div class="text-center">
+								<img class="rounded-circle" src="images/home page/geen valley.png" alt="Green Valley">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/02_1.png" alt="Beto Carrero">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/06_1.png" alt="1007">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/matahari.png" alt="Matahari">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/shed.png" 
+								alt="Shed">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/p12.png" 
+								alt="P12">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Marias.png" 
+								alt="Grupo Marias">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/hospital santa catarina.png" alt="Hospital Santa Catarina Blumenau">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/hospital santa isabel.png" alt="Hospital Santa Isabel">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/hospital são josé.png" alt="Hospital São José">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/hospital do coração.png" alt="Hospital do coração">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Hospital do Cancer de Barretos.png" alt="Hospital de câncer de Barretos">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Irmandade da Santa Casa de Londrina.png" alt="ISCAL">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Unimed.png" alt="Unimed">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Infinity Blue.png" alt="Infinity Blue">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/zagaia eco resort.png" alt="Zagaia">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Rede Slaviero Hoteis.png" alt="Slaviero Hoteis">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Marambaia Hotel.png" alt="Marambaia Hoteis">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Bora Bora Pousada.png" alt="Bora Bora Pousada">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Hotel Thermas.png" alt="Thermas">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Costão do Santinho.png" alt="Costão do Santinho">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Cascanéia.png" alt="Cascanéia">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/gua Show Park.png" alt="Água show Park">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Parque Unipraias Camboriú.png" alt="Parque Unipraias">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/TOP LINE Formaturas.png" alt="Topline">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/American Park.png" alt="American Park">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Fiesta Park.png" alt="Fiesta Park">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Pirizal Thermas Club.png" alt="Pirizal">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/CBM.png" 
+								alt="CBM">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/CBT.png" 
+								alt="CBT">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Parque Vila Germânica.png" alt="Parque Vila Germânica">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Parque Aquático Cascata Carolina.png" alt="Cascata Carolina">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/MEVAM.png" alt="MEVAM">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Lagoinha.png" alt="Lagoinha">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Bola de Neve.png" alt="Bola de Neve">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Univali.png" alt="Univali">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Uniasselvi.png" alt="Uniasselvi">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/FURB.png"
+								alt="FURB">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Rede Feminina.png" alt="RFCC">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Casa de Acolhida São Felipe Neri   .png" alt="Casa São Felipe Neri">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Fundação Cultural de Blumenau.png" alt="Fundação Cultural de Blumenau">
+							</div>
+							<div>
+								<img class="rounded-circle" src="images/home page/Projeto Tamar.png" alt="Projeto Tamar">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="page-footer">
+		<div class="page-footer-news text-center">
+			<div class="container">
+				<div class="row align-items-center justify-content-sm-center">
+					<div class="col-sm-10 col-xs-12">
+						<h3 class="title">Cadastre-se e receba nossas 
+							<br> 
+							novidades
+						</h3>
+						<form class="form-inline justify-content-center">
+							<input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Nome">
+							<div class="input-group mb-2 mr-sm-2">
+								<input type="email" class="form-control" id="inlineFormInputGroupUsername2" placeholder="E-mail">
+							</div>		
+							<button type="submit" class="btn btn-white-red mb-2">Receber novidades</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="safety-and-payment">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="safety-footer">
+							<h2>Segurança</h2>
+							<div class="safety">
+								<img class="img-fluid" src="images/home page/seguranca.png" alt="Selos de segurança">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ml-auto">
+						<div class="payment-footer">
+							<h2>Pagamento</h2>
+							<div class="payment">
+								<img class="img-fluid" src="images/home page/pagamento.png" alt="Formas de pagamento">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="footer-content">
+			<div class="footer-container">
+				<div class="footer-left">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-2 col-xs-12">
+								<ul class="list-group">
+									<li class="list-group-item title">Sobre nós</li>
+									<li class="list-group-item">A Printset</li>
+									<li class="list-group-item">Trabalhe com a gente</li>
+									<li class="list-group-item">Fale conosco</li>
+								</ul>
+							</div>
+							<div class="col-sm-2 col-xs-12">
+								<ul class="list-group">
+									<li class="list-group-item title">Compre com segurança</li>
+									<li class="list-group-item">Política de privacidade</li>
+									<li class="list-group-item">Trocas e devoluções</li>
+									<li class="list-group-item">Política de entrega</li>
+									<li class="list-group-item">Como comprar?</li>
+								</ul>
+							</div>
+							<div class="col-sm-2 col-xs-12">
+								<p class="f-14">Televendas</p>
+								<h4 class="number">47 3340 5949</h4>
+								<p class="f-14">De segunda sexta-feira</p>
+								<p class="f-14">das 8h às 12h e 13h às 18h</p>
+								<p class="f-14 red">contato@printset.com.br</p>
+							</div>
+							<div class="col-sm-2 col-xs-12 ml-auto">
+								<ul class="social list-inline">
+									<li class="social-icon list-inline-item">
+										<a href="#" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+									</li>
+									<li class="social-icon list-inline-item">
+										<a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+									</li>	
+									<li class="social-icon list-inline-item">
+										<a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+									</li>	
+								</ul>
+							</div>
+						</div>
+						<div class="copyright pt-5 text-center">
+							<small>
+								<span>
+									Printset Pulseiras e Ingressos Eireli - Epp CNPJ: 01.362.467/0001-44
+									<br>
+									Rua Alfredo Kaestner, 551 - Bairro Vorstadt - Blumenau - Santa Catarina - CEP 89015-540
+								</span>
+								<div class="hibrido">
+									<a href="#">Desenvolvido por Hibrido</a>
+								</div>
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+	
+	
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/2999317898.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="./dist/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.btn-outline {
+    &-white {
+        border-color: $white;
+
+        &:hover {
+            color: $red;
+            background: $white;
+        }
+    }
+}
+
+.btn {
+    &-white {
+        &-red {
+            border-color: $white;
+            background: $white;
+            color: $red;
+
+            &:hover {
+                color: $white;
+                background: $red;
+                border: 1px solid $white;
+            }
+        }
+        &-acqua {
+            border-color: $white;
+            background: $white;
+            color: $acqua;
+
+            &:hover {
+                color: $white;
+                background: $acqua;
+                border: 1px solid $white;
+            }
+        }
+        &-orange {
+            border-color: $white;
+            background: $white;
+            color: $orange;
+
+            &:hover {
+                color: $white;
+                background: $orange;
+                border: 1px solid $white;
+            }
+        }
+        &-pink {
+            border-color: $white;
+            background: $white;
+            color: $pink;
+
+            &:hover {
+                color: $white;
+                background: $pink;
+                border: 1px solid $white;
+            }
+        }
+    }
+}
